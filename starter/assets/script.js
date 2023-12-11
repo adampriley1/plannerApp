@@ -1,8 +1,6 @@
 var currentDayDisplayEl = $("#currentDay");
 //display current date
 
-const scheduleContainer = $('.container');
-
 displayDate();
 
 // handle displaying the time
@@ -39,4 +37,25 @@ $(".time-block").each(function () {
     $(this).addClass("future");
   }
 });
+
+
+
+//event listner for buttons
+
+$(".saveBtn").on('click', function(event) {
+
+
+    hourValue = $(event.target).closest(".time-block").data("hour");
+
+    textValue = $(event.target).closest(".time-block").find("textarea").val();
+    
+  
+ console.log (hourValue);
+ console.log (textValue);
+
+});
+
+// function addToStorage() {
+//     localStorage.setItem(hourValue, count);
+//   }
 
