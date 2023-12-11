@@ -1,6 +1,8 @@
 var currentDayDisplayEl = $("#currentDay");
 //display current date
 
+populateFromStorage()
+
 displayDate();
 
 // handle displaying the time
@@ -39,23 +41,30 @@ $(".time-block").each(function () {
 });
 
 
+///Get data from user and store in local storage///
 
 //event listner for buttons
-
 $(".saveBtn").on('click', function(event) {
 
-
-    hourValue = $(event.target).closest(".time-block").data("hour");
-
-    textValue = $(event.target).closest(".time-block").find("textarea").val();
+//get values from schedule
+hourValue = $(event.target).closest(".time-block").data("hour");
+textValue = $(event.target).closest(".time-block").find("textarea").val();
     
-  
- console.log (hourValue);
- console.log (textValue);
-
+//store values to local storage 
+localStorage.setItem(hourValue, textValue);
+alert("Schedule item added to local storage");
 });
 
-// function addToStorage() {
-//     localStorage.setItem(hourValue, count);
-//   }
 
+//loop through all the hours. If any data stored in local storage, save this vakue and add to textarea field 
+
+function populateFromStorage() {
+    $(".time-block").each(function () {
+      const hourValue = $(this).data("hour");
+      let savedValue = localStorage.getItem(hourValue);
+  
+      if (savedValue) {
+        $(this).find("textarea").val(savedValue);
+      }
+    });
+  }
