@@ -45,7 +45,7 @@ Screenshot of working HTML page:
 
 Application Link:
 
-https://adampriley1.github.io/plannerApp/
+https://adampriley1.github.io/quiz-challenge-/
 
 ## Usage
 
