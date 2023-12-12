@@ -26,20 +26,18 @@ Persist events between refreshes of a page
   
 
 Screenshots of code created:
-![Alt text](<assets/screenshots/html screenshot 1.png>)
-![Alt text](<assets/screenshots/html screenshot 2.png>)
-![Alt text](<assets/screenshots/html screenshot 3.png>)
-![Alt text](<assets/screenshots/css screenshot 1.png>)
-![Alt text](<assets/screenshots/css screenshot 2.png>)
-![Alt text](<assets/screenshots/Script screenshot 1.png>)
-![Alt text](<assets/screenshots/Script screenshot 2.png>)
-
-
-
+![Alt text](<assets/screenshots/html screenshot 1-min.png>)
+![Alt text](<assets/screenshots/html screenshot 2-min.png>)
+![Alt text](<assets/screenshots/html screenshot 3-min.png>)
+![Alt text](<assets/screenshots/css screenshot 1-min.png>)
+![Alt text](<assets/screenshots/css screenshot 2-min.png>)
+![Alt text](<assets/screenshots/css screenshot 3-min.png>)
+![Alt text](<assets/screenshots/Script screenshot 1-min.png>)
+![Alt text](<assets/screenshots/Script screenshot 2-min.png>)
 
 Screenshot of working HTML page:
-![Alt text](<assets/screenshots/Working app.png>)
 
+![Alt text](<assets/screenshots/Working app-min.png>)
 
 ## Installation
 
