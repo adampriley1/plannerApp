@@ -2,15 +2,19 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  padding-bottom: 30px;
+  
 }
 
 textarea {
   background: transparent;
   border: none;
   resize: none;
+  height: 5rem;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+ 
 }
 
 header {
@@ -20,6 +24,7 @@ header {
   border-radius: 0;
   border-bottom: 10px solid black;
   padding: 60px;
+
 }
 
 .description {
