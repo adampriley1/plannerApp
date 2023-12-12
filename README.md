@@ -43,7 +43,7 @@ Screenshot of working HTML page:
 
 Application Link:
 
-https://adampriley1.github.io/quiz-challenge-/
+https://adampriley1.github.io/plannerApp/
 
 ## Usage
 
